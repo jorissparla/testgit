@@ -1,0 +1,19 @@
+{
+  "name": "testgit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorissparla/testgit.git"
+  },
+  "author": "Joris Sparla <joris.sparla@gmail.com> (http://www.sparlanuenen.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jorissparla/testgit/issues"
+  },
+  "homepage": "https://github.com/jorissparla/testgit#readme"
+}
