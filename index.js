@@ -1,1 +1,208 @@
 console.log('new file')
+const chatAr = [{
+  "id": "C751FD1D-D6A0-4C5E-96A1-03F55C886161",
+  "weeknr": "week46",
+  "productline": "LN",
+  "region": "EMEA",
+  "team": "Logistics",
+  "nrchats": 19,
+  "responseintime": 17,
+  "percentage": 89
+}, {
+  "id": "B0CE701B-166D-425E-AAB4-08A8EC54DAC3",
+  "weeknr": "week46",
+  "productline": "LN",
+  "region": "EMEA",
+  "team": "Finance",
+  "nrchats": 8,
+  "responseintime": 6,
+  "percentage": 75
+}, {
+  "id": "A95A3950-A3EE-46C7-B1A4-D5A9B5D2AD7C",
+  "weeknr": "week46",
+  "productline": "LN",
+  "region": "EMEA",
+  "team": "Tools",
+  "nrchats": 12,
+  "responseintime": 6,
+  "percentage": 50
+}, {
+  "id": "450C5171-CE35-4A62-9644-D196E26D8013",
+  "weeknr": "week47",
+  "productline": "LN",
+  "region": "EMEA",
+  "team": "Finance",
+  "nrchats": 6,
+  "responseintime": 5,
+  "percentage": 83
+}, {
+  "id": "6447C1B2-6B20-41CC-B697-2A6EB00804E0",
+  "weeknr": "week47",
+  "productline": "LN",
+  "region": "EMEA",
+  "team": "Tools",
+  "nrchats": 9,
+  "responseintime": 5,
+  "percentage": 55
+}, {
+  "id": "6FC981FF-03B8-437B-B659-7A97B0624ACE",
+  "weeknr": "week47",
+  "productline": "LN",
+  "region": "EMEA",
+  "team": "Logistics",
+  "nrchats": 13,
+  "responseintime": 12,
+  "percentage": 92
+}, {
+  "id": "BAFF9211-26F0-4BA2-86F7-4FE18BF70FCE",
+  "weeknr": "week48",
+  "productline": "LN",
+  "region": "EMEA",
+  "team": "Finance",
+  "nrchats": 6,
+  "responseintime": 6,
+  "percentage": 100
+}, {
+  "id": "69179C5B-0ACA-40E1-AB48-9CD3C493C657",
+  "weeknr": "week48",
+  "productline": "LN",
+  "region": "EMEA",
+  "team": "Logistics",
+  "nrchats": 19,
+  "responseintime": 18,
+  "percentage": 94
+}, {
+  "id": "FA4FC6F9-BEE4-46FC-B848-D5291D5B41C3",
+  "weeknr": "week48",
+  "productline": "LN",
+  "region": "EMEA",
+  "team": "Tools",
+  "nrchats": 13,
+  "responseintime": 12,
+  "percentage": 92
+}, {
+  "id": "B0ADC073-BFC2-42D1-A1C4-D9228A96DCD2",
+  "weeknr": "week49",
+  "productline": "LN",
+  "region": "EMEA",
+  "team": "Tools",
+  "nrchats": 11,
+  "responseintime": 6,
+  "percentage": 54
+}, {
+  "id": "6B9357BF-EE87-47CB-BEDE-D99100EA08DD",
+  "weeknr": "week49",
+  "productline": "LN",
+  "region": "EMEA",
+  "team": "Logistics",
+  "nrchats": 20,
+  "responseintime": 20,
+  "percentage": 100
+}, {
+  "id": "1CC307B4-7359-4A3B-AC5C-E1158B9A3B77",
+  "weeknr": "week49",
+  "productline": "LN",
+  "region": "EMEA",
+  "team": "Finance",
+  "nrchats": 14,
+  "responseintime": 14,
+  "percentage": 100
+}, {
+  "id": "FD2FAB58-4AE8-41A9-BEF6-842DC7156FC7",
+  "weeknr": "week50",
+  "productline": "LN",
+  "region": "EMEA",
+  "team": "Finance",
+  "nrchats": 13,
+  "responseintime": 13,
+  "percentage": 100
+}, {
+  "id": "2F34F015-82EB-478A-BB18-D832ADE5907B",
+  "weeknr": "week50",
+  "productline": "LN",
+  "region": "EMEA",
+  "team": "Tools",
+  "nrchats": 10,
+  "responseintime": 8,
+  "percentage": 80
+}, {
+  "id": "A838C384-B66D-4C5F-BD73-D1AC5B57E8C3",
+  "weeknr": "week50",
+  "productline": "LN",
+  "region": "EMEA",
+  "team": "Logistics",
+  "nrchats": 17,
+  "responseintime": 16,
+  "percentage": 94
+}, {
+  "id": "AA0012B7-6117-4169-9098-798F98F311BA",
+  "weeknr": "week51",
+  "productline": "LN",
+  "region": "EMEA",
+  "team": "Logistics",
+  "nrchats": 18,
+  "responseintime": 16,
+  "percentage": 88
+}, {
+  "id": "BF74688D-93F8-4697-BE73-821896565B82",
+  "weeknr": "week51",
+  "productline": "LN",
+  "region": "EMEA",
+  "team": "Tools",
+  "nrchats": 7,
+  "responseintime": 5,
+  "percentage": 71
+}, {
+  "id": "EF823230-C2CC-4348-8A68-2985E50E59B8",
+  "weeknr": "week51",
+  "productline": "LN",
+  "region": "EMEA",
+  "team": "Finance",
+  "nrchats": 11,
+  "responseintime": 8,
+  "percentage": 72
+}, {
+  "id": "C2BB3B30-5084-4898-8DA8-07243468AE9B",
+  "weeknr": "week1",
+  "productline": "LN",
+  "region": "EMEA",
+  "team": "Finance",
+  "nrchats": 13,
+  "responseintime": 13,
+  "percentage": 100
+}, {
+  "id": "FFB072C5-E686-4F3B-B1C2-A4699D8D8CB1",
+  "weeknr": "week1",
+  "productline": "LN",
+  "region": "EMEA",
+  "team": "Logistics",
+  "nrchats": 17,
+  "responseintime": 14,
+  "percentage": 82
+}, {
+  "id": "01DC6A62-4B31-4BAB-9E0A-B6242D2B32D7",
+  "weeknr": "week1",
+  "productline": "LN",
+  "region": "EMEA",
+  "team": "Tools",
+  "nrchats": 7,
+  "responseintime": 6,
+  "percentage": 85
+}]
+
+const weekAr = chatAr.reduce((uniqueAr, item) => { 
+  if (uniqueAr.indexOf(item.weeknr) <0) {
+     uniqueAr.push(item.weeknr) 
+    }; 
+    return uniqueAr
+  }, []);
+
+  const mappedAr = weekAr.map(week=> {
+    let weekAr=chatAr.filter(item => item.weeknr === week)
+    let weekLine = { week: week}
+    weekAr.map(item => {
+      weekLine[item.team] = item.percentage
+    })
+    return weekLine
+  })
+  console.log(mappedAr)
